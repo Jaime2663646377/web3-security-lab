@@ -1,0 +1,15 @@
+# Binarios y compilación
+cache/
+out/
+broadcast/
+node_modules/
+
+# Bases de datos (Nunca subir archivos .db)
+*.db
+*.sqlite
+
+# Entorno y logs
+.env
+__pycache__/
+.DS_Store
+logs/*.log
