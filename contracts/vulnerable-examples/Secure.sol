@@ -12,10 +12,9 @@ contract Secure {
         uint amount = balances[msg.sender];
         require(amount > 0);
 
-        // ✅ primero actualiza estado
         balances[msg.sender] = 0;
 
-        // ✅ luego envía ETH
+
         (bool success, ) = msg.sender.call{value: amount}("");
         require(success);
     }
