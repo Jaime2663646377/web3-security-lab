@@ -2,8 +2,8 @@
 pragma solidity ^0.8.20;
 
 import "forge-std/Test.sol";
-import "../src/Vulnerable.sol";
-import "../src/Secure.sol";
+import "../contracts/vulnerable-examples/Vulnerable.sol";
+import "../contracts/vulnerable-examples/Secure.sol";
 
 contract ReentrancyTest is Test {
 

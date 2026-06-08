@@ -25,6 +25,9 @@ Si se desea ejecutar el pipeline de análisis directamente dentro del contenedor
 
 El script automatizado ejecutará de forma secuencial la compilación de artefactos, la suite de tests unitarios, el análisis estático profundo con Slither y la posterior migración de resultados estructurados hacia la base de datos SQLite.
 
+### Nuevo ejemplo visual: FlashyVault
+Se agregó un contrato `FlashyVault` en `contracts/vulnerable-examples/` que emite eventos llamativos durante depósitos y retiros seguros. También se creó una prueba específica y un script de demostración para destacar el comportamiento seguro y el estado emergente del cofre.
+
 ## Componentes de Seguridad Analizados
 
 ### El Vector de Ataque por Reentrancia

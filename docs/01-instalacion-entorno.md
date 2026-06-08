@@ -64,6 +64,7 @@ Contratos de prueba incluidos:
 - `contracts/vulnerable-examples/SimpleReentrancy.sol`
 - `contracts/vulnerable-examples/UncheckedOverflow.sol`
 - `contracts/vulnerable-examples/UnauthorizedAccess.sol`
+- `contracts/vulnerable-examples/FlashyVault.sol`
 
 ## 4. Flujo de uso previsto
 
